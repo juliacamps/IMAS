@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>15-16 INTRODUCCIÓ ALS SISTEMES MULTI-AGENT (103160): Practical Exercise 2015-16 : Definition</title>
+    <link rel="shortcut icon" href="https://moodle.urv.cat/moodle/theme/image.php/urv24/theme/1445320453/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, 15-16 INTRODUCCIÓ ALS SISTEMES MULTI-AGENT (103160): Practical Exercise 2015-16 : Definition" />
+<link rel="stylesheet" type="text/css" href="https://moodle.urv.cat/moodle/theme/yui_combo.php?3.7.3/build/cssreset/reset-min.css&amp;3.7.3/build/cssfonts/fonts-min.css&amp;3.7.3/build/cssgrids/grids-min.css&amp;3.7.3/build/cssbase/base-min.css" /><script type="text/javascript" src="https://moodle.urv.cat/moodle/theme/yui_combo.php?3.7.3/build/simpleyui/simpleyui-min.js&amp;3.7.3/build/loader/loader-min.js"></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://moodle.urv.cat/moodle/theme/styles.php/urv24/1445320453/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/moodle.urv.cat\/moodle","sesskey":"nmgWTRVt4T","loadingicon":"https:\/\/moodle.urv.cat\/moodle\/theme\/image.php\/urv24\/core\/1445320453\/i\/loading_small","themerev":"1445320453","slasharguments":1,"theme":"urv24","jsrev":"1445320453","svgicons":true};
+var moodleConfigFn = function(me) {var p = me.path, b = me.name.replace(/^moodle-/,'').split('-', 3), n = b.pop();if (/(skin|core)/.test(n)) {n = b.pop();me.type = 'css';};me.path = b.join('-')+'/'+n+'/'+n+'.'+me.type;};
+var galleryConfigFn = function(me) {var p = me.path,v=M.yui.galleryversion,f;if(/-(skin|core)/.test(me.name)) {me.type = 'css';p = p.replace(/-(skin|core)/, '').replace(/\.js/, '.css').split('/'), f = p.pop().replace(/(\-(min|debug))/, '');if (/-skin/.test(me.name)) {p.splice(p.length,0,v,'assets','skins','sam', f);} else {p.splice(p.length,0,v,'assets', f);};} else {p = p.split('/'), f = p.pop();p.splice(p.length,0,v, f);};me.path = p.join('/');};
+var yui2in3ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin');}};
+YUI_config = {"base":"https:\/\/moodle.urv.cat\/moodle\/lib\/yuilib\/3.7.3\/build\/","comboBase":"https:\/\/moodle.urv.cat\/moodle\/theme\/yui_combo.php?","combine":true,"filter":"","insertBefore":"firstthemesheet","modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/moodle.urv.cat\/moodle\/lib\/javascript.php\/1445320453\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]},"core_dock":{"name":"core_dock","fullpath":"https:\/\/moodle.urv.cat\/moodle\/lib\/javascript.php\/1445320453\/blocks\/dock.js","requires":["base","node","event-custom","event-mouseenter","event-resize"]}},"groups":{"moodle":{"name":"moodle","base":"https:\/\/moodle.urv.cat\/moodle\/theme\/yui_combo.php?moodle\/1445320453\/","comboBase":"https:\/\/moodle.urv.cat\/moodle\/theme\/yui_combo.php?","combine":true,"filter":"","ext":false,"root":"moodle\/1445320453\/","patterns":{"moodle-":{"group":"moodle","configFn":moodleConfigFn}}},"local":{"name":"gallery","base":"https:\/\/moodle.urv.cat\/moodle\/lib\/yui\/gallery\/","comboBase":"https:\/\/moodle.urv.cat\/moodle\/theme\/yui_combo.php?","combine":true,"filter":"","ext":false,"root":"gallery\/","patterns":{"gallery-":{"group":"gallery","configFn":galleryConfigFn}}},"yui2":{"base":"https:\/\/moodle.urv.cat\/moodle\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/moodle.urv.cat\/moodle\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui2in3ConfigFn}}}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://moodle.urv.cat/moodle/lib/javascript.php/1445320453/lib/javascript-static.js"></script>
+<script type="text/javascript" src="https://moodle.urv.cat/moodle/theme/javascript.php/urv24/1445320453/head"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2713110-3', 'auto');
+  ga('send', 'pageview');
+
+</script></head>
+
+<body id="page-mod-page-view" class="format-topics  path-mod path-mod-page gecko dir-ltr lang-en yui-skin-sam yui3-skin-sam moodle-urv-cat--moodle pagelayout-incourse course-62021 context-2055361 cmid-1527181 category-936 category-929 category-766 content-only">
+<div class="skiplinks"><a class="skip" href="#maincontent">Skip to main content</a></div>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<div id="page">
+<!-- START OF HEADER -->
+    <div id="page-header" class="page-header">
+           <div id="logo1" class="logo1"><a href="https://moodle.urv.cat/moodle" title="Home" id="logo1">Anar al HOME</a></div>
+           <div id="logo2" class="logo2"><a href="http://www.sre.urv.es" title="Servei de Recursos Educatius" id="logo2" target="blank">Servei de Recursos Educatius</a></div>
+
+    </div>
+<div id="headermenu-wrapper" class="headermenu-wrapper">
+ <div class="headermenu"><div class="logininfo">You are currently using guest access (<a href="https://moodle.urv.cat/moodle/login/index.php">Login</a>)</div> </div>
+</div>
+
+<!--
+-->
+                    <div class="navbar">
+                <div class="wrapper clearfix">
+                    <div class="breadcrumb"><span class="accesshide">Page path</span><ul><li class="it0"><a href="https://moodle.urv.cat/moodle/">Home</a></li class="it0"><li class="it1"> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> <a title="2015-2016 INTRODUCCIÓ ALS SISTEMES MULTI-AGENT (17665208, 17635101)" href="https://moodle.urv.cat/moodle/course/view.php?id=62021">15-16 INTRODUCCIÓ ALS SISTEMES MULTI-AGENT (103160)</a></li class="it1"><li class="it2"> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> <span tabindex="0">Topic 4</span></li class="it2"><li class="last it3"> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> <a title="Page" href="https://moodle.urv.cat/moodle/mod/page/view.php?id=1527181">Practical Exercise 2015-16 : Definition</a></li class="last it3"></ul></div><div class="navbutton"> </div>
+                </div>
+            </div>
+
+        
+<!-- END OF HEADER -->
+<div id="page-content-wrapper" class="wrapper clearfix">
+    <div id="page-content">
+        <div id="region-main-box">
+            <div id="region-post-box">
+
+                <div id="region-main-wrap">
+                    <div id="region-main">
+                        <div class="region-content"><div class="region-content-inner">
+
+                        	<div class="innercontent">
+                            <span id="maincontent"></span><div class="box generalbox center clearfix"><div class="no-overflow"><h2><span face="Trebuchet MS, serif" style="font-family: 'Trebuchet MS', serif;"><i style="font-size: 1.5em; line-height: 1.4; color: #666666;"><span lang="en-US">Practical work of IMAS</span></i></span></h2>
+<p></p>
+<h1 class="western" align="justify"><span lang="en-US">Practice goal<br /></span></h1>
+<p lang="en-US" align="justify"><span style="line-height: 1.4;">The m</span><span style="line-height: 1.4;">ain goal is to put in practice the basic concepts of agent technology using a real framework (JADE).</span></p>
+<p lang="en-US" align="justify"></p>
+<h1 lang="en-US" align="justify">Practice description</h1>
+<p lang="en-US" align="justify"><span lang="en-US" style="line-height: 1.4;">You have to design and develop a </span><span lang="en-US" style="line-height: 1.4;"><b>decision making system</b></span><span lang="en-US" style="line-height: 1.4;"> for disaster situations based on a multi-agent system </span><span lang="en-US" style="line-height: 1.4;"><b>in groups of four or five students</b></span><span lang="en-US" style="line-height: 1.4;">.</span></p>
+<p lang="en-US" align="justify"><span lang="en-US" style="line-height: 1.4;"><b>This exercise aims to simulate how rescue entities react to injured people in the mountain</b></span><span lang="en-US" style="line-height: 1.4;">. There are two kinds of entities: </span><span style="font-size: 13.6px; line-height: 1.4;">(i) rural agents, that walk up to the injured people to help them in situ, and (ii) helicopters that bring injured people from the mountain to a hospital.</span></p>
+<p lang="en-US" align="justify"><span style="font-size: 13.6px; line-height: 1.4;">To make the problem finite, we locate injured trekking people in a hilly area, seen as a grid of variable size, where a limited number of elements and allowed interactions appear. The main elements to consider are the following:</span></p>
+<ul>
+<li>
+<p align="justify"><span lang="en-US"><b>Rural agents.</b></span><span lang="en-US"> Rural agents are specialized people in rescuing in mountain, and have the shared responsibility of taking care of injured people. They travel through existing paths. When idle, they have to be in mountain huts to prevent getting frozen.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US"><b>Hospitals.</b></span><span lang="en-US"> There are few hospitals near mountains to take care of injured inhabitants. Injured people are brought to the hospital when they are gravily injured. <span>Hospitals heal perfectly injured people, so that hospitals behave as if their capacity is infinite. There are few hospitals in the map.</span></span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US"><b>Helicopters.</b></span><span lang="en-US"> These vehicles have a maximum capacity for injured people. They travel straight from hospitals to near the injured people. Helicopters when idle have to be stopeed at corresponding hospitals to reduce cost. Helicopters can appear in the same cell in any number, except in the following cases:</span></p>
+<ul>
+<li>
+<p align="justify"><span lang="en-US">There can be only a helicopter rescuing people in a given cell. Other helicopters can appear moving in the same cell, though.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US">There can be only a helicopter landing on to a hospital, or taking off from a hospital. There is only a landing pad per hospital. However, there can be any number of stopped helicopters in a hospital.</span></p>
+</li>
+</ul>
+</li>
+<li>
+<p align="justify"><span lang="en-US"><b>Mountaneers.</b></span><span lang="en-US"> They are people doing trekking through the mountain. They just get visible on the map when they get injured. Once they are injured, they die if they are not in contact with rural agents or helicopters in at maximum of 20 steps.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US"><b>Paths.</b></span><span lang="en-US"> Grid cells through which rural agents and mountaneers will be moving. They are bidirectional. A path cell can contain people without any limit and just one helicopter when rescuing. </span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US"><b>Mountains.</b></span><span lang="en-US"> There are grid cells that represent mountains, hills and valleys.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US"><b>Avalanches.</b></span><span lang="en-US"> Mountains may have snow and other elements that may block paths for a certain amount of time.</span></p>
+</li>
+</ul>
+<p align="justify"><span style="line-height: 1.4;">Therefore, the goal of the whole system is to try to rescue all injured people from mountains. This task should be done spending the minimum amount of resources (e.g. fuel or walking for rural agents).</span></p>
+<p align="justify"></p>
+<h1 lang="en-US" align="justify">Technical requirements</h1>
+<p lang="en-US" align="justify"><span style="line-height: 1.4;">Your practical work has to address this problem in two phases:</span></p>
+<ol>
+<li>
+<p align="justify"><span lang="en-US"><b>Initialization.</b></span><span lang="en-US"> This is the first phase in which your whole solution is correctly initialized, loading the initial configuration settings from a file, creating all the agents and showing them in their initial positions in the graphical interface.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US"><b>Simulation.</b></span><span lang="en-US"> Once all agents are ready, the evolution of all events will make agents move through the map <span>simulated by steps</span>. At the end of each step, all mobile agents know their next position in the grid.</span></p>
+</li>
+</ol>
+<p></p>
+<h1><span lang="en-US">Architecture</span></h1>
+<h2 lang="en-US" align="justify"><span style="line-height: 1.4; font-size: 14px; font-weight: normal;">To address disasters in the mountain, you have to design and develop the following agents addressing the responsibilities being detailed:</span></h2>
+<ul>
+<li>
+<p align="justify"><span lang="en-US"><b>SystemAgent.</b></span><span lang="en-US"> This agent is responsible for:</span></p>
+<ol type="a">
+<li>
+<p align="justify"><span lang="en-US">Loading the configuration settings at the initialization phase.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US">Spreading the necessary configuration settings and current status of the mountain to the CoordinatorAgent.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US">Providing a GUI where to show the map grid and all its static and mobile elements.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US">Adding new injured people in the map in a random and dynamic way. An injured person dies after 20 steps, if a rescuing element (helicopter or rural agent) does not get near it.</span></p>
+<ol>
+<li><span lang="en-US">Deciding if injured people have to appear in the next simulation step. Probability of injury.</span></li>
+<li><span lang="en-US">Deciding the number of injured people.</span></li>
+<li><span lang="en-US">Deciding where they appear: their position.</span></li>
+<li><span lang="en-US">Deciding the injury's severity per person according to the probability of injury: light (90%) or severe (10%). Consider also that:</span><ol>
+<li><span lang="en-US">People with severe injury can only be healed in hospitals.</span></li>
+<li><span lang="en-US">People with light injury can be healed by rural agents, moving them into the mountain huts.</span></li>
+</ol></li>
+<li><span lang="en-US">Injured people are not agents.</span></li>
+</ol></li>
+<li><span lang="en-US">Adding avalanches in a random and dynamic way. <span>Avalanches disappear automatically on up to 5 steps.</span></span><ol>
+<li><span lang="en-US">Deciding if avalanches have to appear in the next simulation step. Probability of avalanches.</span></li>
+<li><span lang="en-US">Deciding the number of avalanches.</span></li>
+<li><span lang="en-US">Deciding the number of steps for making the avalanches disappear.</span></li>
+<li><span lang="en-US">During isolation, helicopters can only rescue injured people if necessary. When avalanche disappears, isolated and injured people become again accessible for rural agents.</span></li>
+</ol></li>
+</ol></li>
+<li>
+<p align="justify"><span lang="en-US"><b>CoordinatorAgent.</b></span><span lang="en-US"> This agent can communicate with the HelicopterCoordinator and the RuralAgentCoordinator, providing them the information given by the SystemAgent.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US"><b>RuralAgentCoordinator.</b></span><span lang="en-US"> This agent is responsible for coordinating RuralAgents, so that they get to know where injured people are. </span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US"><b>HelicopterCoordinator.</b></span><span lang="en-US"> This agent helps to manage the coordination between HelicopterAgents. It also shares with HelicopterAgents where injured people exist that only helicopters can rescue.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US"><b><span lang="en-US" style="font-size: 13.6px; font-weight: normal; line-height: 1.4;"><b>HelicopterAgent.</b></span><span lang="en-US" style="font-size: 13.6px; font-weight: normal; line-height: 1.4;"> These agents are responsible for bringing up to 2 people at a time to the hospital. These people, though, can get in the helicopter at different places from the map. Injured people get in a helicopter that is placed in any cell surrounding the injured person, at a speed of a person per step. Rescuing people by a helicopter has a cost of 20/person. </span></b></span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US"><b>RuralAgent.</b></span><span lang="en-US"> These agents must coordinate their actions (with the support of the RuralAgentCoordinator) to reach the goal of preventing people from die. To rescue an injured person, a RuralAgent get to the same cell than the injured person, and brings that person to a mountain hut, no matter which. <span>Rescuing people by a RuralAgent has a cost of 1/person.</span></span></p>
+</li>
+</ul>
+<p lang="en-US" align="justify"><span style="line-height: 1.4;">Given all these details, you have to design a system that rescues all injured people with the minimum cost (1/person for rural agents, and 20/person for helicopters).</span></p>
+<p lang="en-US" align="justify"><span style="line-height: 1.4;">In the following diagram you can see the basic architecture of the described multiagent system:</span></p>
+<p lang="en-US" align="justify"><span style="line-height: 1.4; font-family: 'courier new', courier, monospace;">     SystemAgent (loads initial configuration settings)<br />        ||<br />        ||<br />        \/<br /></span><span style="font-family: 'courier new', courier, monospace; line-height: 1.4; font-size: 13.6px;">  CoordinatorAgent<br />  ||            ||<br />  ||            ||<br />  \/            \/<br />RuralAgent     Helicopter<br />Coordinator    Coordinator<br />  ||              ||<br />  ||              ||<br />  \/              \/<br />  N x             M x<br />RuralAgent       <span>HelicopterAgent</span><br /></span><span style="font-family: 'courier new', courier, monospace; font-size: 13.6px; line-height: 1.4;">                 </span></p>
+<p align="justify"></p>
+<h1 align="justify">Helicopter coordination</h1>
+<h2 class="western" align="justify"><span style="line-height: 1.4; font-size: 14px; font-weight: normal;">You have to choose one of the following coordination schemes among helicopters and hospitals.</span></h2>
+<ol type="a">
+<li>
+<p align="justify"><span lang="en-US"><b>Helicopters are related to a hospital</b></span><span lang="en-US">, so that all loaded injured people in those ambulances are brought to the </span><span lang="en-US"><b>same hospital</b></span><span lang="en-US">. For instance, if </span><span face="Courier New, serif" style="font-family: 'Courier New', serif;"><span lang="en-US">helicopter1</span></span><span lang="en-US"> is related to </span><span face="Courier New, serif" style="font-family: 'Courier New', serif;"><span lang="en-US">hospital3</span></span><span lang="en-US">, all the people loaded in </span><span face="Courier New, serif" style="font-family: 'Courier New', serif;"><span lang="en-US">helicopter1</span></span><span lang="en-US"> will be brought to </span><span face="Courier New, serif" style="font-family: 'Courier New', serif;"><span lang="en-US">hospital3</span></span><span lang="en-US">.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US"><b>Helicopters are related to the area</b></span><span lang="en-US">, not to a hospital, so that injured people can be brought to </span><span lang="en-US"><b>any hospital</b></span><span lang="en-US">.</span></p>
+</li>
+</ol>
+<p lang="en-US" align="justify"><span style="line-height: 1.4;">Helicopters travel in straight line from a hospital to the injured person or people, and then in straight line to a hospital where to heal them.</span></p>
+<p></p>
+<h1 align="justify">Helicopters and rural agents at work</h1>
+<p lang="en-US" align="justify"><span>To clarify the way both helicopters and rural agents work, these are the guidelines:</span></p>
+<ol>
+<li lang="en-US" align="justify"><span>A rural agent goes from any mountain hut to the cell where an injured person appears. Rural agents can bring just a person at a time. Then, rural agents bring people to any mountain hut. They have to follow existing paths. Rural agents are only effective when people are lightly injured.</span></li>
+<li lang="en-US" align="justify"><span>Helicopters take injured people to hospitals in two cases:</span><ol>
+<li lang="en-US" align="justify"><span>Mandatory: When people are severely injured. Rural agents cannot help them.</span></li>
+<li lang="en-US" align="justify"><span>Optionally, whenever necessary: in cases where injured people are isolated, and no rural agent can rescue them. This would be the last option to prevent people die.</span></li>
+</ol></li>
+</ol>
+<p>If more than one helicopter is necessary to rescue injured people in the same cell, helicopters cannot appear in the same cell when rescuing. However, helicopters may appear in surrounding cells to that of the injured people.</p>
+<p></p>
+<p><span style="line-height: 1.4; font-size: 2.25em; font-weight: bold;">Information flow</span></p>
+<p lang="en-US" align="justify"><span style="line-height: 1.4;">The information will flow as described in the next lines:</span></p>
+<ul>
+<li>
+<p align="justify"><span lang="en-US">The SystemAgent will load the configuration settings, such as the number of agents of any kind (HelicopterAgents, RuralAgents) as well as the number of helicopters per hospital, if applicable. In addition, configuration settings will define the whole simulation properties, including the size of the grid, the number of any kind of elements, and the total number of simulation steps, among others. When this step is done, simulation can start. SystemAgent will also communicate to the CoordinatorAgent the current status dynamically, such as which elements currently exist and their specific status.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US">HelicopterCoordinator will be responsible for a good average quality of service for all helicopters. </span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US">HelicopterAgents and HelicopterCoordinator will implement the chosen coordination model for helicopters and they will decide the actions for each helicopter.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US">HelicopterAgents have to count the number of cells in straight line to reach the target place. Helicopters also have to find the way to the corresponding hospital. HelicopterAgents will send to the HelicopterCoordinator the number of steps taken from its current position (always in a hospital when idle) to reach the point of loading injured people, and then also the number of steps to reach the hospital.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US">The RuralAgentCoordinator will be responsible to decide the amount of RuralAgents to sent to each place with injured people. It will send a message to each RuralAgent with its new position.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US">RuralAgents have to find the fastest path to the target place with injured people. RuralAgents will send to the RuralAgentCoordinator the number of steps taken to reach each place, and RuralAgentCoordinator will send them to the SystemAgent to log them. You have to decide what to do with RuralAgents when idle, but always remain in a mountain hut. You can also decide if RuralAgents can change planning in runtime.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US">When all coordination tasks are completed and statistical information sent, both HelicopterCoordinator and RuralAgentCoordinator will send a message OK to the CoordinatorAgent, which will forward it to the SystemAgent. Then, the SystemAgent knows that it can proceed with the next simulation step.</span></p>
+</li>
+</ul>
+<p lang="en-US" align="justify"><span style="line-height: 1.4;">Any protocol message not described in this document will be defined by each workgroup to make the system work as expected.</span></p>
+<p lang="en-US" align="justify"><span style="line-height: 1.4;"><span>You will be better evaluated if </span><strong>you use at least a couple of coordination mechanisms</strong><span> between agents. But take into accound this: this will let you get a higher mark if and only if you give professors good reasons for that.</span></span></p>
+<p lang="en-US" align="justify"></p>
+<h2 lang="en-US" class="western" align="justify"><span style="font-size: 1.5em; line-height: 1.4;">Statistical information</span></h2>
+<p lang="en-US"><span style="line-height: 1.4;">For analysis purposes, the SystemAgent will show the statistics gathered along the whole simulation process. They will show the quality of your multiagent system design, including:</span></p>
+<ul>
+<li>
+<p align="justify"><span lang="en-US">Total cost for the rescued people.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US">Cost ratio per rescued person.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US">Number of dead people. This value is gathered by the SystemAgent when an injured person is not rescued before 20 steps.</span></p>
+</li>
+<li><span lang="en-US">Number of rescued people.<br /><br /></span></li>
+<li>
+<p align="justify"><span lang="en-US">Ratio of rescued people.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US">Average of number of steps to take a first rescuing element (RuralAgent or HelicopterAgent) to place with injured people.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US">Percentage of people brought to mountain huts.</span></p>
+</li>
+<li>
+<p align="justify"><span lang="en-US">Percentage of people brought to hospitals.</span></p>
+</li>
+</ul>
+<p lang="en-US" align="justify"><span style="line-height: 1.4;">In conclusion, your design should try to miminise the cost for rescuing people, the number of dead people, and the number of steps to take a first rescuing element (RuralAgent or HelicopterAgent) to a place with injured people.</span></p>
+<p lang="en-US" align="justify"></p>
+<h1 lang="en-US" align="justify"><span style="line-height: 1.4;"><span style="line-height: 1.4; font-size: 2.25em;">Deadline and delivery</span></span></h1>
+<p><span lang="en-US">You have to deliver the solution to this exercise in groups of four or five students. To do so, you will have two evaluation opportunities. The first evaluation opportunity has these two deadlines:</span></p>
+<ol>
+<li>
+<p><span lang="en-US">December 2nd, 2015, with the initialization phase developed. Mandatory delivery in all cases to pass the subject.</span></p>
+</li>
+<li>
+<p><span lang="en-US">January 13th, 2016, with the whole practical work.</span></p>
+</li>
+</ol>
+<p><span lang="en-US">The second evaluation opportunity will be later with a unique deadline:</span></p>
+<ul>
+<li>
+<p><span lang="en-US">February 5th, 2016, with the whole practical work.</span></p>
+</li>
+</ul>
+<p align="justify"><span lang="en-US">The group coordinator has to upload a zip archive with the solution to Moodle into the corresponding task. To do so, you are allowed to upload it since the day before the deadline, except professors decide otherwise.</span></p>
+<p></p></div></div><div class="modified">Last modified: dijous, 8 octubre 2015, 5:44 PM</div>                        </div>
+                    </div></div>
+                </div>
+                </div>
+
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- START OF FOOTER -->
+        <div id="page-footer" class="wrapper">
+        <div id="footer-left">
+	       	<div id="logo-sred" class="logo-sred">
+    	<a href="http://www.sre.urv.cat" title="Servei de Recursos Educatius" id="logo-sred" target="blank">&nbsp;</a>
+    		</div>
+        </div>
+		<div id="footer-right">
+		<p class="helplink"></p>
+        <div class="logininfo">You are currently using guest access (<a href="https://moodle.urv.cat/moodle/login/index.php">Login</a>)</div>		</div>
+		</div>
+
+    </div>
+    </div>
+
+<script type="text/javascript" src="https://moodle.urv.cat/moodle/theme/javascript.php/urv24/1445320453/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","viewallcourses":"View all courses","cancel":"Cancel","yes":"Yes"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"block":{"addtodock":"Move this to the dock","undockitem":"Undock this item","undockall":"Undock all","hidedockpanel":"Hide the dock panel","hidepanel":"Hide panel"},"langconfig":{"thisdirectionvertical":"btt"},"admin":{"confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var navtreeexpansions330588 = [{"id":"expandable_branch_30_974374","key":"974374","type":30},{"id":"expandable_branch_30_974375","key":"974375","type":30},{"id":"expandable_branch_30_974376","key":"974376","type":30},{"id":"expandable_branch_30_974379","key":"974379","type":30},{"id":"expandable_branch_0_courses","key":"courses","type":0}];
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+YUI().use('node', function(Y) {
+M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+function legacy_activity_onclick_handler_1(e) { e.halt(); window.open('http://moodle.urv.cat/moodle/mod/resource/view.php?id=861873&redirect=1', '', 'width=1180,height=670,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_2(e) { e.halt(); window.open('http://moodle.urv.cat/moodle/mod/url/view.php?id=1138281&redirect=1', '', 'width=850,height=650,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_3(e) { e.halt(); window.open('http://moodle.urv.cat/moodle/mod/url/view.php?id=1138297&redirect=1', '', 'width=850,height=650,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_4(e) { e.halt(); window.open('http://moodle.urv.cat/moodle/mod/url/view.php?id=1138301&redirect=1', '', 'width=850,height=650,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_5(e) { e.halt(); window.open('http://moodle.urv.cat/moodle/mod/url/view.php?id=1143494&redirect=1', '', 'width=850,height=650,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_6(e) { e.halt(); window.open('http://moodle.urv.cat/moodle/mod/url/view.php?id=1527167&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_7(e) { e.halt(); window.open('http://moodle.urv.cat/moodle/mod/url/view.php?id=1527168&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+M.yui.galleryversion="2010.04.08-12-35";Y.use("core_dock","moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"330589","instance":"330589","candock":true});
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("core_dock","moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"330588","instance":"330588","candock":true,"courselimit":"1","expansionlimit":0});
+});
+M.util.help_popups.setup(Y);
+Y.on('click', legacy_activity_onclick_handler_6, "#action_link5627844fe3b011", null);
+Y.on('click', legacy_activity_onclick_handler_7, "#action_link5627844fe3b012", null);
+
+});
+//]]>
+</script>
+</body>
+</html>
+

@@ -1,0 +1,35 @@
+# NetBeans specific #
+build/*
+!build/build.xml
+# Ignore everything from private...
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Other files to ignore:
+APDescription.txt
+MTPs-Main-Container.txt
+
+#java specific
+*.class
+ 
+#general swap/backup files
+*.txt
+*.so
+*.log
+*.out
+*~
+*.swp
+*.DS_Store
+*.lock
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# OSx temp files omision:
+*.DS_Store
